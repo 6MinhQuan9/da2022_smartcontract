@@ -88,12 +88,12 @@ function MyApp({ Component, pageProps }) {
               QUẢN LÝ VĂN BẰNG, CHỨNG CHỈ
             </a>
           </Link>
-          <Link href="/" >
+          <Link href="/timKiemSinhVien" >
             <a className={link}>
               QUẢN LÝ SINH VIÊN
             </a>
           </Link>
-          <Link href="/" >
+          <Link href="/quanLyNguoiDung" >
             <a className={link}>
               QUẢN LÝ NGƯỜI DÙNG
             </a>
