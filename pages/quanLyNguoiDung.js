@@ -1,8 +1,19 @@
-import { Row, Form, Col, Button, Collapse } from "react-bootstrap";
+import { Row, Form, Col, Button } from "react-bootstrap";
 import "easymde/dist/easymde.min.css";
 import { css } from "@emotion/css";
+import { useState } from "react";
 
 export default function userManagement() {
+  const [dataValues, setDataValues] = useState({
+    userName: ""
+  })
+  const hanldeData = (e) => {
+    setDataValues({
+      ...dataValues,
+      [e.target.name]: e.target.value
+    })
+  }
+  console.log(dataValues);
   return (
     <>
       <div className={container}>
@@ -20,7 +31,7 @@ export default function userManagement() {
             <Form.Group>
               <Form.Label>Tên người dùng</Form.Label>
               <Col>
-                <Form.Control className={inputText} type="text" />
+                <Form.Control className={inputText} name='userName' type="text" value={dataValues.userName} onChange={hanldeData} />
               </Col>
             </Form.Group>
             <Row>
