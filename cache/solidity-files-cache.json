@@ -1,6 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
+<<<<<<< HEAD
     "D:\\da2022_smartcontract\\contracts\\BangDaiHoc.sol": {
       "lastModificationDate": 1652513773496,
       "contentHash": "516d66c2c9afa10a233f37a100799003",
@@ -112,6 +113,10 @@
     },
     "D:\\da2022_smartcontract\\contracts\\Blog.sol": {
       "lastModificationDate": 1652513773497,
+=======
+    "D:\\da2022_smartcontract\\contracts\\Blog.sol": {
+      "lastModificationDate": 1652360198113,
+>>>>>>> 6f66a16b9eb8044bafb1b062c8863faee8276a75
       "contentHash": "c986cad7e709deac4b73494f5a81c255",
       "sourceName": "contracts/Blog.sol",
       "solcConfig": {
@@ -149,7 +154,11 @@
       ]
     },
     "D:\\da2022_smartcontract\\node_modules\\hardhat\\console.sol": {
+<<<<<<< HEAD
       "lastModificationDate": 1652513859031,
+=======
+      "lastModificationDate": 1652360348698,
+>>>>>>> 6f66a16b9eb8044bafb1b062c8863faee8276a75
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
@@ -184,7 +193,11 @@
       ]
     },
     "D:\\da2022_smartcontract\\node_modules\\@openzeppelin\\contracts\\utils\\Counters.sol": {
+<<<<<<< HEAD
       "lastModificationDate": 1652513855703,
+=======
+      "lastModificationDate": 1652360344875,
+>>>>>>> 6f66a16b9eb8044bafb1b062c8863faee8276a75
       "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
       "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
       "solcConfig": {
